@@ -1,14 +1,17 @@
 ```mermaid
+
 sequenceDiagram
-  box Red 
   participant Attacker
   participant BotNet
+  participant WebServer
+  participant Firewall
 
-  Attacker-->> BotNet: Attacker infects a large network<br/> of computers by installing<br/> malware
-  BotNet -->> Attacker: BotNet and included computers<br/> are now under the control of the attacker
+  Attacker->>BotNet: Infects a large network<br/> of computers with<br/> malware
+  BotNet-->>Attacker: Provides resources for<br/> a large scale attack
 
-box Green
-  create participant Firewall
-  create participant WebServer 
+  BotNet->>WebServer: Forms a remote server used<br/> to submit requests en masse
+  WebServer->>Firewall: Floods a Firewall with traffic<br/> and excessive bandwidth
+
+  Note right of Firewall: Firewall crashes,<br/> allowing original attacker to access<br/>sensitive information. 
 
 ```
