@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Task Manager</title>
+        <script src="handler.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="header">Task Manager</h1>
+        <div id="left">
+            <div id="formcontainer"> 
+                <label id="addtasklab">Add a task</label>
+                <br> 
+                <form> 
+                    <label id="namelab" for="nameinput"> 
+                        Task name<br>
+                        <input type="text" id="nameinput" name="nameinput"><br></input>
+                    </label>
+                    <label id = "prioritylab" for="dropdowncontainer"> 
+                        Priority<br>
+                        <select id="priorityinput">
+                            <option value="high"> High </option>
+                            <option value="medium"> Medium </option>
+                            <option value="low"> Low</option>
+                        </select>
+                    </label>
+                    <br>
+                    <label id="importantlab" for="importantinput">
+                        Important:
+                        <input type="checkbox" id="importantinput" name="importantinput"><br></input>
+                    </label>
+                    <br>
+                    <input type="submit" id="addtask" value="Add task"></input> 
+                </form>
+            </div>
+        </div>
+
+        <div id="middle">
+            <h1 id="currentheader">Current Tasks</h1>
+            <label id="dateadded">Date added
+                <label id="completedlab">Completed</label>
+            </label>
+            <div id="taskmanager"> 
+                <div id="high"> High Priority</div>
+                <div id="medium"> Medium Priority</div>
+                <div id="low"> Low Priority</div>
+        </div>
+    </body>
+
+</html>

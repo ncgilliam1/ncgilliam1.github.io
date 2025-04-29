@@ -1,0 +1,242 @@
+#left {
+    position: absolute; 
+    text-align: left;
+    top: 15vh;
+    left: 0; 
+    width: 20vh;
+    height: 40vh;
+    background-color: #6CA7BC;
+    border-right: 10px solid white; 
+    border-top: 10px solid white; 
+}
+
+#middle {
+    position: absolute;
+    top: 140px; 
+    left: 25vh;
+    width: 100vh;
+    height: 80vh; 
+    color: white; 
+    font-family: "Arial", sans-serif;
+    font-weight: 600; 
+    text-align: left; 
+    color: black; 
+    
+}
+
+#header {
+    position: absolute; 
+    left: 0; 
+    width: 130vh;
+    height: 90px; 
+    background-color: #6CA7BC; 
+    text-align: center; 
+    font-size: 50px; 
+    font-family: "Arial", sans-serif;
+    color: white; 
+    line-height: 90px; 
+}
+
+#currentheader {
+    position: relative; 
+    top: 70px; 
+    font-family: "Arial", sans-serif;
+    font-weight: 600;
+    color: black; 
+}
+
+
+#dateadded {
+    position: relative;
+    display: flex; 
+    height: 15px; 
+    top: 30px; 
+    left: 880px;  
+    display: inline-block; 
+    text-align: center; 
+    font-size: 20px; 
+    
+}
+
+#completedlab {
+    position: relative;
+    left: 200px; 
+}
+
+#formcontainer { 
+    margin-top: 60px; 
+    margin-left: 15px; 
+}
+
+#namelab {
+    position: relative; 
+    top: 50px;
+    line-height: 30px; 
+    font-size: 20px; 
+    font-family: "Arial", sans-serif;
+    font-weight: 600; 
+    text-align: center; 
+    color: white; 
+}
+
+#nameinput {
+    position: relative; 
+    width: 150px; 
+    height: 20px; 
+    font-size: 15px; 
+    font-family: "Arial", sans-serif;
+    background-color: #C5CEDB;
+    border: 2px solid white; 
+}
+
+#importantlab {
+    position: relative; 
+    top: 120px; 
+    font-family: "Arial", sans-serif;
+    font-weight: 600; 
+    font-size: 20px; 
+    text-align: center; 
+    color: white; 
+}
+
+#importantinput {
+    width: 15px; 
+    height: 15px; 
+}
+
+
+#prioritylab {
+    position: relative; 
+    top: 80px;
+    font-size: 20px; 
+    font-family: "Arial", sans-serif;
+    font-weight: 600;
+    color: white; 
+}
+
+#priorityinput {
+    position: relative; 
+    width: 75px; 
+    height: 30px;
+    text-align: left; 
+    background-color: #CDE4E8;
+    border: 2px solid white; 
+    
+}
+
+#addtasklab {
+    position: absolute; 
+    top: 50px; 
+    left: 20px;   
+    font-size: 30px; 
+    font-family: "Arial", sans-serif;
+    font-weight: 600;
+    color: white; 
+}
+
+#addtask {
+    position: relative;
+    top: 150px; 
+    width: 125px;
+    height: 50px; 
+    font-size: 20px; 
+    
+}
+
+#high{
+    position: relative;
+    width: 100vh;
+    font-size: 30px;
+    font-family: "Arial", sans-serif;
+    font-weight: 600;
+    color: Black;
+    border-bottom: 2px solid rgb(211, 211, 211);
+    border-top: 2px solid rgb(211, 211, 211);
+    padding-top: 20px;
+    padding-bottom: 60px; 
+    margin-top: 40px; 
+}
+
+#medium {
+    position: relative;
+    width: 100vh; 
+    font-size: 30px;
+    font-family: "Arial", sans-serif;
+    font-weight: 600;
+    color: Black;
+    border-bottom: 2px solid rgb(211, 211, 211);
+    padding-top: 20px;
+    padding-bottom: 60px; 
+}
+
+#low {
+    position: relative;
+    width: 100vh; 
+    font-size: 30px;
+    font-family: "Arial", sans-serif;
+    font-weight: 600;
+    color: Black;
+    border-bottom: 2px solid rgb(211, 211, 211); 
+    padding-top: 20px;
+    padding-bottom: 60px; 
+}
+
+
+
+#newtask {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vh;
+    height: 75px;
+    color: black;
+    opacity: 0.9;
+    margin-top: 20px;
+}
+
+#newnamelab {
+    flex-basis: 450px;          
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 25px;
+    font-family: "Arial", sans-serif;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 15px; 
+}
+
+#newtaskpriority { 
+    flex-basis: 250px; 
+    justify-content: space-between; 
+    font-size: 30px; 
+    color: black; 
+    font-family: "Arial", sans-serif;
+    font-weight: 600; 
+    margin-right: 40px; 
+}
+
+#newdateadded {
+    position: relative;
+}
+
+#delbutton {
+    width: 100px;
+    height: 50px; 
+    font-size: 20px; 
+    line-height: 50px; 
+    font-family: "Arial", sans-serif;
+    color: white; 
+    font-weight: 600;
+    background-color: #515556e0;
+    text-align: center;
+    margin-left: 20px;
+}
+
+
+#completedinput {
+    position: relative; 
+    height: 20px; 
+    width: 20px; 
+    margin-right: 40px;
+}
